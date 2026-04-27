@@ -1,6 +1,6 @@
 # CornerStone
 
-### Proof becomes access.
+### Proof becomes access
 
 ## Language / 言語
 
