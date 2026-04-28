@@ -125,16 +125,3 @@ $$('[data-close-modal]').forEach((button) => {
 });
 
 render();
-
-
-// --- FORCE DASHBOARD FIX ---
-document.addEventListener("DOMContentLoaded", () => {
-  document.querySelectorAll("a, button, div").forEach(el => {
-    if (el.innerText && el.innerText.toUpperCase().includes("DASH")) {
-      el.onclick = (e) => {
-        e.preventDefault();
-        window.location.href = "/co/";
-      };
-    }
-  });
-});
